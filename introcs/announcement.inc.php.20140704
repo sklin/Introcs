@@ -1,0 +1,85 @@
+                  				<!-- 最新消息，開始。 -->
+                  				<br>
+                  				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  					<tr>
+                  						<td width="7" height="57" background="img/bg_title_bar01.gif">&nbsp;</td>
+                  						<td width="40" align="center" background="img/bg_title_bar02.gif"><img src="img/bg_title_bar04.gif" width="26" height="26"></td>
+                  						<td background="img/bg_title_bar02.gif" class="tfont_1">最新消息</td>
+                  						<td width="9" background="img/bg_title_bar03.gif">&nbsp;</td>
+                  					</tr>
+                  				</table>
+                  				<br>
+                                <h1> 101學年度第二學期計概程式設計演習 課程列表 </h1>
+                  				<table width="100%" border="0" cellspacing="1" cellpadding="3">
+                  					<tr>
+                  						<td class="cfont_1">
+                  						
+    <table style="border-collapse: collapse; border: medium none;" border="1" cellpadding="0" cellspacing="0" align="center">
+      <tbody>
+        <tr>
+          <td style="width: 69.2pt; border: 1pt solid windowtext; padding: 0cm 5.4pt;" valign="top" width="92">
+            <p class="MsoNormal"><span>時間</span></p>
+          </td>
+          <td style="width: 139.8pt; border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; padding: 0cm 5.4pt;" valign="top" width="186">
+
+            <p class="MsoNormal"><span>地點</span></p>
+          </td>
+          <td style="width: 104.55pt; border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; padding: 0cm 5.4pt;" valign="top" width="139">
+            <p class="MsoNormal"><span>霹靂博姓名</span></p>
+          </td>
+<td>
+	
+            <p class="MsoNormal"><span>課程介紹</span></p>
+</td>
+		  <td style="width: 104.55pt; border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; padding: 0cm 5.4pt;" valign="top" width="139">
+            <p class="MsoNormal"><span>上機使用語言</span></p>
+
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 69.2pt; border-right: 1pt solid windowtext; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; padding: 0cm 5.4pt;" valign="top" width="92">
+            <p class="MsoNormal"><span lang="EN-US">3IJK(七點上課)</span></p>
+          </td>
+          <td style="width: 139.8pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0cm 5.4pt;" valign="top" width="186">
+            <p class="MsoNormal"><span>資訊中心訓練教室</span><span lang="EN-US"></span></p>
+
+          </td>
+          <td style="width: 104.55pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0cm 5.4pt;" valign="top" width="139">
+            <p class="MsoNormal"><span>鄭昌杰</span></p>
+          </td>
+<td>
+			<p class="MsoNormal"><span>	
+實際上機演練，由助教陪您練習撰寫程式</span></p>
+</td>
+          <td style="width: 104.55pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0cm 5.4pt;" valign="top" width="139">
+            <p class="MsoNormal"><span lang="EN-US">C/C++</span></p>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 69.2pt; border-right: 1pt solid windowtext; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; padding: 0cm 5.4pt;" valign="top" width="92">
+            <p class="MsoNormal"><span lang="EN-US">1IJK</span></p>
+          </td>
+          <td style="width: 139.8pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0cm 5.4pt;" valign="top" width="186">
+            <p class="MsoNormal"><span>工程三館115教室</span><span lang="EN-US"></span></p>
+
+		  </td>
+          <td style="width: 104.55pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0cm 5.4pt;" valign="top" width="139">
+            <p class="MsoNormal"><span>何冠緯</span></p>
+          </td>
+<td>
+            <p class="MsoNormal"><span>複述課程</span></p>
+</td>
+          <td style="width: 104.55pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0cm 5.4pt;" valign="top" width="139">
+            <p class="MsoNormal"><span lang="EN-US">無(複述課程)</span></p>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+<!--	<p><img src="img/tmp01.gif" width="700" height="196" /><br /></p> --!>
+                  						</td>
+                  					</tr>
+                  					<tr>
+                  					</tr>
+                  				</table>
+                  				<!-- 最新消息，結束。 -->
