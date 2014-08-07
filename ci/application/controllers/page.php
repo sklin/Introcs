@@ -20,6 +20,46 @@ class Page extends CI_Controller {
         $this->load->view('templates/footer');
 
     }
+
+    public function course()
+    {
+
+        $this->load->view('templates/header');
+        $this->load->view('course');
+        $this->load->view('templates/main_menu');
+        $this->load->view('templates/footer');
+
+    }
+
+    public function forum()
+    {
+
+        $this->load->view('templates/header');
+        $this->load->view('forum');
+        $this->load->view('templates/main_menu');
+        $this->load->view('templates/footer');
+
+    }
+
+    public function links()
+    {
+
+        $this->load->view('templates/header');
+        $this->load->view('links');
+        $this->load->view('templates/main_menu');
+        $this->load->view('templates/footer');
+
+    }
+
+    public function download()
+    {
+
+        $this->load->view('templates/header');
+        $this->load->view('download');
+        $this->load->view('templates/main_menu');
+        $this->load->view('templates/footer');
+
+    }
 }
 
 /* End of file page.php */
