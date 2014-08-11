@@ -36,6 +36,10 @@
                     <td bgcolor="#95ACEC" class="cfont_1"><font color="#FFFFFF">看版列表</font></td>
                 </tr>
     <?php foreach ($forum_board_item as $forum_board): ?>
+        <?php
+            if($forum_board['forum_group_id'] === $forum_group['forum_group_id'])
+            {
+        ?>
                 <tr>
                     <td class="cfont_1" bgcolor="#E2EFFF">
                     <!-- 條列看版，開始。 -->
@@ -84,6 +88,9 @@
                             <!-- 條列看版，結束。 -->
                         </td>
                     </tr>
+        <?php
+            }
+        ?>
     <?php endforeach ?>
             </table>
         </td>
