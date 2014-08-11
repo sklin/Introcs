@@ -37,8 +37,13 @@ class Page extends CI_Controller {
     public function forum()
     {
 
+        $this->load->model('forum_model');           /// Load model
+
+        $data['forum_group_item'] = $this->forum_model->get_forum_group();
+        $data['forum_board_item'] = $this->forum_model->get_forum_board();
+
         $this->load->view('templates/header');
-        $this->load->view('forum');
+        $this->load->view('forum',$data);
         $this->load->view('templates/main_menu');
         $this->load->view('templates/user_login');
         $this->load->view('templates/footer');
