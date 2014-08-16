@@ -46,7 +46,7 @@
                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                             <!-- 看版名稱，開始。 -->
                             <tr>
-                                <td class="cfont_1" colspan="2"><a><?php echo $forum_board['forum_board_title']; ?></a></td>
+                                <td class="cfont_1" colspan="2"><?php echo anchor('page/forum_list_article/'.$forum_board['forum_board_id'], $forum_board['forum_board_title']); ?></td>
                             </tr>
                             <!-- 看版名稱，結束。 -->
                             <!-- 看版資訊，開始。 -->
