@@ -1,30 +1,4 @@
-<?php
-    /************************
-    /* Set in controller :
-    /*  $forum_board_id
-    /*  $forum_subject_id
-    /*
-    /*  $Query_forum_board
-    /*  $Query_forum_group
-    /*  $forum_subject_id
-    /*  $forum_article_id
-    /************************/
-    //$Query_forum_board;
-    //$Query_forum_group;
-    //$forum_subject_id = 0;
-    //$forum_article_id = 0;
-?>
 <!-- 計概討論區  發表文章，開始。 -->
-<br>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr>
-        <td width="7" height="57" background="img/bg_title_bar01.gif">&nbsp;</td>
-        <td width="40" align="center" background="img/bg_title_bar02.gif"><img src="img/bg_title_bar04.gif" width="26" height="26"></td>
-        <td background="img/bg_title_bar02.gif" class="tfont_1">計概討論區</td>
-        <td width="9" background="img/bg_title_bar03.gif">&nbsp;</td>
-    </tr>
-</table>
-<br>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr>
         <td class="tfont_2"><img src="img/icon_menu.gif" width="15" height="14" />

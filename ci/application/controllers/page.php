@@ -41,8 +41,10 @@ class Page extends CI_Controller {
 
         $data['forum_group_item'] = $this->forum_model->get_forum_group();
         $data['forum_board_item'] = $this->forum_model->get_forum_board();
+        $data['title'] = '計概討論區';
 
         $this->load->view('templates/header');
+        $this->load->view('templates/title',$data);
         $this->load->view('forum',$data);
         $this->load->view('templates/main_menu');
         $this->load->view('templates/user_login');
@@ -54,6 +56,7 @@ class Page extends CI_Controller {
     {
         $data['forum_board_id'] = $forum_board_id;
         $data['forum_subject_id'] = $forum_subject_id;
+        $data['title'] = '計概討論區';
 
         if($forum_board_id === FALSE)   /// 若沒有board資訊，跳回forum頁面
         {
@@ -88,6 +91,7 @@ class Page extends CI_Controller {
         }
         
         $this->load->view('templates/header');
+        $this->load->view('templates/title',$data);
         $this->load->view('forum_list_article',$data);
         $this->load->view('templates/main_menu');
         $this->load->view('templates/user_login');
@@ -99,6 +103,7 @@ class Page extends CI_Controller {
         $data['forum_board_id'] = $forum_board_id;
         $data['forum_subject_id'] = $forum_subject_id;
         $data['forum_article_id'] = $forum_article_id;
+        $data['title'] = '計概討論區';
 
         if($forum_board_id === FALSE)
         {
@@ -151,6 +156,7 @@ class Page extends CI_Controller {
         /// url : index.php/page/forum_article_add/[forum_board_id]/[forum_subject_id]
 
         $this->load->view('templates/header');
+        $this->load->view('templates/title',$data);
         $this->load->view('forum_article_add',$data);
         $this->load->view('templates/main_menu');
         $this->load->view('templates/user_login');
