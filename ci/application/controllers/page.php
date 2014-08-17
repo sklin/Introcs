@@ -272,6 +272,49 @@ class Page extends CI_Controller {
         $this->load->view('templates/footer');
     }
 
+    public function forum_article_content($forum_board_id, $forum_subject_id, $forum_article_id)
+    {
+        if($forum_board_id == 0 OR $forum_subject_id == 0 OR $forum_article_id == 0)
+        {
+            redirect('page/forum', 'location', 301);
+        }
+
+        $data['forum_board_id'] = $forum_board_id;
+        $data['forum_subject_id'] = $forum_subject_id;
+        $data['forum_article_id'] = $forum_article_id;
+        $data['title'] = '計概討論區';
+
+        /// Load model
+        $this->load->model('forum_model');           /// Load model
+        $this->load->model('account_model');           /// Load model
+
+        $data['forum_board_item'] = $this->forum_model->get_forum_board($forum_board_id);   /// 獲得該看版資訊
+        $data['forum_group_item'] = $this->forum_model->get_forum_group($data['forum_board_item'][0]['forum_group_id']);    /// 獲得該討論區資訊
+        $data['forum_board_title'] = $data['forum_board_item'][0]['forum_board_title'];    /// 獲得該討論區名稱
+        $data['forum_group_title'] = $data['forum_group_item'][0]['forum_group_title'];    /// 獲得該討論區名稱
+
+        $forum_subject_selected = $this->forum_model->get_forum_subject($forum_board_id,$forum_subject_id);
+        if(count($forum_subject_selected) === 0)    /// 沒有該主題
+        {
+            redirect('page/forum', '', 301);
+        }
+        $data['forum_subject_title'] = $forum_subject_selected[0]['forum_subject_title'];   /// 得到該主題名稱 (subject title)
+        $data['forum_subject_selected'] = $forum_subject_selected[0];
+
+        $data['forum_article_item'] = $this->forum_model->get_forum_article($forum_article_id);   /// 獲得該文章內容資訊
+        $data['forum_article_title'] = $data['forum_article_item'][0]['forum_article_title'];   /// 獲得該文章標題
+
+        $data['feedback_is_bm'] = $this->account_model->is_bm($data['forum_board_item'][0]['forum_board_manager']);  // 檢查是否為版主
+
+        
+        $this->load->view('templates/header');
+        $this->load->view('templates/title',$data);
+        $this->load->view('forum_article_content',$data);
+        $this->load->view('templates/main_menu');
+        $this->load->view('templates/user_login');
+        $this->load->view('templates/footer');
+    }
+
     public function links()
     {
 

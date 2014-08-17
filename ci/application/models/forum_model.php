@@ -56,7 +56,7 @@ class Forum_model extends CI_Model {
         return $query->result_array();
     }
 
-    public function get_forum_article($article_id = FALSE)    /// 獲得文章內容
+    public function get_forum_article($article_id)    /// 獲得文章內容
     {
         $this->db->from('forum_article_Tab');
         $this->db->where('forum_article_id', $article_id); 
