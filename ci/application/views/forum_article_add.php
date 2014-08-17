@@ -3,7 +3,7 @@
     <tr>
         <td class="tfont_2"><img src="img/icon_menu.gif" width="15" height="14" />
         <?PHP echo anchor('page/forum', $forum_group_title, 'class="link-class"'); ?> /
-        <?PHP echo anchor('page/forum_list_article', $forum_board_title, 'class="link-class"'); ?> /
+        <?PHP echo anchor('page/forum_list_article/'.$forum_board_id, $forum_board_title, 'class="link-class"'); ?> /
 <?php
     if ($forum_subject_id > 0)
     {
